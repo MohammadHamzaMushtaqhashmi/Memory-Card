@@ -1,0 +1,32 @@
+body {
+    background-color: azure;
+}
+
+.card {
+    width: 280px;
+    height: 350px;
+    overflow: hidden;
+    background-color: #8ab661;
+    border-radius: 15px;
+    font-size: 23px;
+    font-family: "Galada";
+    margin: 10px;
+  }
+  
+  .card img {
+    margin: 5px;
+    max-width: 265px;
+    max-height: 265px;
+    border-radius: 15px;
+  }
+  
+  #card-grid {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .card:hover {
+    transform: scale(1.1);
+  }
+  
